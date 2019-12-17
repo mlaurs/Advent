@@ -66,7 +66,7 @@ public class aufgabe2 {
                 if (scurr[0] == 19690720) {
                     stelle1 = noun;
                     stelle2 = verb;
-                    System.out.println("Das nomen ist " + stelle1 + " und das Verb ist: " + stelle2);
+                    System.out.println("Das 'noun' ist " + stelle1 + " und das 'verb' ist: " + stelle2);
                     System.out.println(noun * 100 + verb);
                     return;
                 }

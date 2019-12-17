@@ -41,6 +41,13 @@ public class aufgabe1 {
                 int drittestelle = intcode[i + 2];
                 int viertestelle = intcode[i + 3];
                 intcode[viertestelle] = intcode[zweitestelle] * intcode[drittestelle];
+            }else if(intcode[i]==3){
+                i=i-2;
+                continue;
+            }else if(intcode[i]==4){
+
+                i=i-2;
+                continue;
             }
 
         }
